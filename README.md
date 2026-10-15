@@ -946,7 +946,7 @@ local function slide()
 end
 
 local controls = makeGui()
-controls.Enter.Activated:Connect(handleEnterButton)
+controls.EnterExit.Activated:Connect(handleEnterButton)
 controls.Jump.Activated:Connect(jump)
 controls.Dash.Activated:Connect(dash)
 controls.Drill.Activated:Connect(toggleDrill)
